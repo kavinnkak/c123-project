@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('doodle.png'); /* Replace 'your-image.jpg' with the actual filename of your image */
+    background-size: cover; /* This ensures that the image covers the entire background */
+    background-position: center; /* This centers the image */
+    /* You can add more properties like background-repeat, background-attachment, etc. based on your needs */
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+.instructions {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    display: block;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
